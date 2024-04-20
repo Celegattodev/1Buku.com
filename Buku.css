@@ -1,0 +1,25 @@
+body{
+    color:white;
+    background-color: white;
+    font-family: Satoshi;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+div{
+    color: white;
+    background-color: orange;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
