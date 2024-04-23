@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
     background-color: white;
     max-width: 1200px;
     margin: 0px;
     padding: 0px;
-    font-family: newsreaderitalico;
+    font-family: 'Inter';
 }
 
 header{
@@ -33,14 +34,16 @@ li{
 }
 
 #blocks{
-    border: 2px solid rgb(238, 149, 54);
+    color: white;
+    background-color: rgb(238, 149, 54);
     padding: 10px;
     border-radius: 13px;
     border-bottom-left-radius: 0px;
 }
 #blocks:hover{
-    background-color: rgb(238, 149, 54);
-    color: white;
+    background-color: white;
+    color: rgb(238, 149, 54);
+    border: 2px solid;
 }
 #cadastro{
     color: white;
@@ -52,6 +55,7 @@ li{
     /* background-color: aqua; */
     width: 300px;
     height: 120px;
+    font-size: 12px;
     display: inline-block;
 }
 
