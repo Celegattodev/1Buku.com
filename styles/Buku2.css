@@ -1,8 +1,8 @@
 body{
     background-color: white;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
+    margin: 0px;
+    padding: 0px;
     font-family: newsreaderitalico;
 }
 
@@ -11,8 +11,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 70px;
+    padding-right: 10px;
 }
 
 #title{
@@ -48,11 +49,10 @@ li{
     border-top-right-radius: 10px;
 }
 #beneficios{
-    align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 300px;
     height: 120px;
-    margin: 15px;
+    display: inline-block;
 }
 
 a{
@@ -65,32 +65,29 @@ a:hover{
     transition: 0.3s all;
 }
 
-h1{
-    font-weight: 200;
-}
-
 main{
     display: flex;
     flex-direction: row;
-    line-height: 20px;
-    padding-top: 15px;
-    background-color: blanchedalmond;
+    line-height: 50px;
+    padding-top: 10px;
+    /* background-color: blanchedalmond; */
+    margin-left: 40px;
 }
 
 h2{
-    font-size: 60px;
-    line-height: 5px;
+    font-size: 55px;
+    line-height: 10px;
 }
 
 p{
     line-height: 20px;
     max-width: 400px;
+    font-size: 14px;
 }
 footer{
     background-color: rgb(112, 110, 226);
-    margin: 0%;
     color: white;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
