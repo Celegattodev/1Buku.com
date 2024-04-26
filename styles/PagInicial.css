@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
     background-color: white;
-    max-width: 1200px;
-    margin: 0px;
-    padding: 0px;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Inter';
+    box-sizing: border-box;
 }
 
 header{
@@ -13,43 +14,59 @@ header{
     justify-content: space-between;
     align-items: center;
     /* background-color: aqua; */
-    height: 70px;
-    padding-right: 10px;
+    padding-right: 2%;
 }
 
-#title{
-    flex-direction: column;
+nav{
+    padding: 1.2rem;
+}
+
+main p{
+    line-height: 130%;
+    max-width: 65%;
+    font-size: 14px;
+}
+
+h2{
+    font-size: 55px;
     line-height: 10px;
 }
 
 li{
     display: inline-block;
-    margin: 35px;
+    padding: 20px;
     width: 80;
-    height: 30px;
+    height: 20px;
     /* display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px; */
 }
 
+#logo{
+    flex-direction: column;
+    line-height: 10px;
+    height: 50px;
+    padding-left: 4%
+}
 #blocks{
     color: white;
-    background-color: rgb(238, 149, 54);
+    background-color: #ee9536;
     padding: 10px;
     border-radius: 13px;
     border-bottom-left-radius: 0px;
 }
 #blocks:hover{
     background-color: white;
-    color: rgb(238, 149, 54);
+    color: #ee9536;
     border: 2px solid;
 }
 #cadastro{
     color: white;
-    background-color: rgb(238, 149, 54);
+    background-color: #ee9536;
     padding: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #beneficios{
     /* background-color: aqua; */
@@ -60,36 +77,30 @@ li{
 }
 
 a{
-    color: rgb(238, 149, 54);
+    color: #ee9536;
     font-size: 15px;
     text-decoration: none;
-}
-a:hover{
-    color: black;
-    transition: 0.3s all;
 }
 
 main{
     display: flex;
     flex-direction: row;
     line-height: 50px;
-    padding-top: 10px;
     /* background-color: blanchedalmond; */
-    margin-left: 40px;
+    padding-left: 4%;
+    padding-top:1%;
+}
+article{
+    float: right;
+    /* background-color: yellowgreen; */
+    display: flex;
+    height: 350px;
+    padding-bottom: 2%;
+    padding-left: auto;
 }
 
-h2{
-    font-size: 55px;
-    line-height: 10px;
-}
-
-p{
-    line-height: 20px;
-    max-width: 400px;
-    font-size: 14px;
-}
 footer{
-    background-color: rgb(112, 110, 226);
+    background-color: #7899ff;
     color: white;
     display: flex;
     justify-content: center;
