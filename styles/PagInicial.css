@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     max-width: 100%;
     margin: 0%;
     padding: 0%;
     font-family: 'Inter';
     box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 
 header{
@@ -17,24 +19,25 @@ header{
     padding-right: 2%;
 }
 
-nav{
-    padding: 1.2rem;
+nav a{
+    padding: 20px;
 }
 
 main p{
     line-height: 130%;
     max-width: 65%;
-    font-size: 14px;
+    font-size: 17px;
+    /* background-color: yellow; */
 }
 
 h2{
-    font-size: 55px;
+    font-size: 75px;
     line-height: 10px;
 }
 
 li{
     display: inline-block;
-    padding: 20px;
+    padding: 40px;
     width: 80;
     height: 20px;
     /* display: flex;
@@ -89,14 +92,16 @@ main{
     /* background-color: blanchedalmond; */
     padding-left: 4%;
     padding-top:1%;
+    /* background-color: #614425; */
 }
 article{
     float: right;
     /* background-color: yellowgreen; */
     display: flex;
-    height: 350px;
+    height: 580px;
     padding-bottom: 2%;
-    padding-left: auto;
+    padding-left: 15%;
+    /* background-color: aquamarine; */
 }
 
 footer{
@@ -105,4 +110,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
