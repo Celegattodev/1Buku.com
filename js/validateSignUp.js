@@ -1,20 +1,8 @@
+import { validateEmail, validatePassword } from './validateEmailAndPassword.js'
+
 document
   .querySelector('#submitButton')
   .addEventListener('click', () => validateSignUp(event))
-
-function validateEmail(email) {
-  return email
-    .toLowerCase()
-    .match(
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    )
-}
-
-function validatePassword(password) {
-  return password.match(
-    /^(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,30}$/
-  )
-}
 
 function validateSignUp(event) {
   event.preventDefault()
@@ -28,6 +16,7 @@ function validateSignUp(event) {
     alert('Informe o nome.')
   }
 
+  console.log()
   if (!validateEmail(email)) {
     alert('Informe um e-mail válido.')
   }
