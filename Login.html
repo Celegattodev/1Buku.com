@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Buku</title>
-    <link rel="stylesheet" href="/styles/Login.css">
-    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/Login.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div style="float: left;">
-            <a href="LandingPage.html">
-                <img class="logo" src="./img/Logo-Buku-branco.png" alt="Logo-Buku">
-            </a>
-        </div>
-        <div class="frase">
-            <p><i>Compartilhando histórias.</i></p>
-        </div>
+      <div style="float: left">
+        <a href="LandingPage.html">
+          <img class="logo" src="./img/Logo-Buku-branco.png" alt="Logo-Buku" />
+        </a>
+      </div>
+      <div class="frase">
+        <p><i>Compartilhando histórias.</i></p>
+      </div>
     </header>
-    <center> 
-    <div class="wrapper">
-    <form action="">
-        
-        <h1>Login</h1>
-        <div class="input-box">
-            <input type="text" placeholder="Email" required>
-            <i class='bx bxs-user'></i>
-        </div>
-        
-        <div class="input-box">
-            <input type="password" placeholder="Senha" required>
-            <i class='bx bxs-lock-alt' ></i>
-            </div>
+    <center>
+      <div class="wrapper">
+        <form action="">
+          <h1>Login</h1>
+          <div class="input-box">
+            <input
+              id="emailInput"
+              name="emailInput"
+              type="text"
+              placeholder="Email"
+              required
+            />
+            <i class="bx bxs-user"></i>
+          </div>
 
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Lembre deste dispositivo</label>
-                <a href="#">Esqueceu sua senha?</a>
-            </div>
-        <button type="submit" class="btn">Login</button>
-        <div class="register-link">
-            <p>Não tem uma conta? <a
-            href="Cadastro.html">Cadastre-se</a></p>
-        </div>
-    </form>
- </div>
-</center>
-</body>
+          <div class="input-box">
+            <input
+              id="passwordInput"
+              name="emailInput"
+              type="password"
+              placeholder="Senha"
+              required
+            />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+
+          <div class="remember-forgot">
+            <label><input type="checkbox" /> Lembre deste dispositivo</label>
+            <a href="#">Esqueceu sua senha?</a>
+          </div>
+          <button type="submit" class="btn" id="submitButton">Login</button>
+          <div class="register-link">
+            <p>Não tem uma conta? <a href="Cadastro.html">Cadastre-se</a></p>
+          </div>
+        </form>
+      </div>
+    </center>
+    <script src="./js/validateLogin.js"></script>
+  </body>
 </html>
