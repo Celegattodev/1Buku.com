@@ -1,136 +1,150 @@
-@import url("http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-body{
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url('/img/Buku-fundoB.png') ;
-    background-size: cover;
-    background-position: center;
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('/img/Buku-fundoB.png');
+  background-size: cover;
+  background-position: center;
 }
 
-.logo{
-    height: 55px;
-    margin-top: 10px;
-    margin-left: 40%;  
+.center-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
 }
 
-.frase{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 10px;
+.logo {
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 40%;
 }
 
-.wrapper{
-    background-color: rgb(255,147,30);
-    width: 470px;
-    /* background-color: ; */
-    color: #fff;
-    border-radius: 10px;
-    padding: 50px 40px;
-    align-content: center;
-    margin-top: 5%;
+.frase {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
 }
 
-.wrapper h1{
-font-size: 36px;
-text-align: center;
-
+.wrapper {
+  background-color: rgb(255, 147, 30);
+  width: 470px;
+  /* background-color: ; */
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px 40px;
+  align-content: center;
+  margin-top: 5%;
 }
-.wrapper .input-box { 
-position: relative;
-    width: 100%;
- height: 50px;
- margin: 30px 0;
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
 }
 
-.input-box input{
-    font-size: 16px;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgb(230, 225, 216);
-    border-radius: 40px;
-    color: #fff;
-    padding: 20px 45px 20px 20px;
+.input-box input {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(230, 225, 216);
+  border-radius: 40px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
 }
 .input-box input::placeholder {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .input-box i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
 }
 
 .wrapper .remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
 }
 
 .remember-forgot label input {
-    accent-color: #fff;
-    margin-right: 3px;
+  accent-color: #fff;
+  margin-right: 3px;
 }
 .remember-forgot a {
-    color:#fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .remember-forgot a:hover {
-   text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .wrapper .btn {
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
 }
 
 .wrapper .register-link {
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
 }
 
 .register-link p a {
-text-decoration: none;
-font-weight: 600;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .register-link p a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-header{
-    
-    display: flex;
-    width: 100%;
-    background-color: rgb(109,138,252);
+header {
+  display: flex;
+  width: 100%;
+  background-color: rgb(109, 138, 252);
 }
-header p{
-    color: #fff ;
+header p {
+  color: #fff;
+}
+
+.info {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.info ul li {
+  margin-left: 24px;
 }
