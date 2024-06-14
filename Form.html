@@ -23,29 +23,32 @@
         </div> -->
     </header>
     <center> 
-    <div class="wrapper">
-    <form action="">
+        <div class="wrapper">
+            <form action="">
         
-        <h1>Formulário de Contato</h1><br><br>
-        <div class="input-box">
-            <input type="text" placeholder="Nome" required>
-            <i class='bx bxs-user'></i>
-        </div>
+                <h1>Formulário de Contato</h1><br><br>
+                <div class="input-box">
+                    <input id="nameInput" name="nameInput" type="text" placeholder="Nome" required>
+                    <i class='bx bxs-user'></i>
+                </div>
         
-        <div class="input-box">
-            <input type="text" placeholder="E-mail" required>
-            <i class='bx bxs-lock-alt' ></i>
-            </div>
+                <div class="input-box">
+                    <input id="emailInput" name="emailInput" type="email" placeholder="E-mail" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
 
-        <div class="atu">
-    <label for="Texto"><b>Mensagem</b></label><br>
-    <textarea style="resize:none; width: 100%;"  id="Texto" name="texto" cols="35" rows="10"></textarea>
+                <div class="atu">
+                    <label for="Texto"><b>Mensagem</b></label><br>
+                    <textarea style="resize:none; width: 100%;"  id="messageInput" name="messageInput" cols="35" rows="10"></textarea>
+                </div>
+
+                <div class="register-link">
+                    <button type="submit" class="btn" id="submitButton">Entre</button style="height: 30px">
+                </div>
+            </form>
         </div>
-<br><br><br>
-<button type="submit" class="btn">Entre</button style="height: 30px">
-<div class="register-link">
-    </form>
- </div>
-</center>
+    </center>
+    
+    <script type="module" src="./js/validateContact.js"></script>
 </body>
 </html>
