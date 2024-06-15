@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    .container {
+      padding: 1.2rem;
+    }
+  
+    header {
+      padding: 0 1.2rem;
+    }
+  
+    header nav {
+      gap: 1rem;
+    }
+  
+    main.container {
+      grid-template-columns: 1fr;
+      padding: 1rem; /* Espaçamento interno reduzido */
+    }
+  
+    h1 {
+      font-size: 3.2rem; /* Reduzido o tamanho da fonte */
+    }
+  
+    main p {
+      font-size: 1.2rem; /* Reduzido o tamanho da fonte */
+    }
+  
+    .button {
+      font-size: 1.6rem; /* Reduzido o tamanho da fonte do botão */
+    }
+  
+    .arrow-right {
+      width: 1.6rem; /* Reduzido o tamanho do ícone */
+    }
+  
+    section.info {
+      height: 10rem; /* Altura reduzida */
+    }
+  } 
